@@ -12,6 +12,10 @@ Sampling with integrated gradients: `` python ./src/sampling/ig_sampling.py ``
 
 Sampling with [Lime](https://arxiv.org/abs/1602.04938): `` python ./src/sampling/lime_sampling.py ``
 
+## Prepared Data 
+
+Train/dev/test splits for hate speech can be found [here](https://drive.google.com/drive/folders/1uzQPeVwije2YlSXCTLUnNtYil2nSSrLV?usp=share_link) and [here](https://drive.google.com/drive/folders/1btUnoSUzaArh1qKNvCeOxxy1-bGbpNkj?usp=share_link) for NLI. 
+
 ## Training 
 
 `` python ./src/modeling/finetune.py ``
