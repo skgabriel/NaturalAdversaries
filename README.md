@@ -33,6 +33,7 @@ Trained adversarial generation models can be found here: https://huggingface.co/
 Example Usage:
 
 ``
+
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 model = GPT2LMHeadModel.from_pretrained(model_dir)
@@ -43,6 +44,7 @@ input_text = tokenizer(sequence + " " + premise,return_tensors="pt")
 output_text = model.generate(**input_text,max_length=200,num_beams=5,repetition_penalty=2.5)
 output_text = tokenizer.decode(output_text[0].tolist())
 print(output_text.split("[SEP] ")[-1].replace("<|endoftext|>",""))
+
 ``
 
 ## Robustness Stress Tests
