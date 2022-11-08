@@ -14,9 +14,9 @@ Sampling with [Lime](https://arxiv.org/abs/1602.04938): `` python ./src/sampling
 
 ## Prepared Data 
 
-Train/dev/test splits for hate speech can be found [here](https://drive.google.com/drive/folders/1uzQPeVwije2YlSXCTLUnNtYil2nSSrLV?usp=share_link).
+Train/dev/test splits for DynaHate can be found [here](https://drive.google.com/drive/folders/1uzQPeVwije2YlSXCTLUnNtYil2nSSrLV?usp=share_link).
 
-Data splits for NLI can be found [here](https://drive.google.com/drive/folders/1btUnoSUzaArh1qKNvCeOxxy1-bGbpNkj?usp=share_link).
+Data splits for AdversarialNLI can be found [here](https://drive.google.com/drive/folders/1btUnoSUzaArh1qKNvCeOxxy1-bGbpNkj?usp=share_link).
 
 ## Training 
 
