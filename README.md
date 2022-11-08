@@ -4,7 +4,7 @@
 
 ## Training 
 
-## Generating
+## Generation
 
 ## Trained Models 
 
