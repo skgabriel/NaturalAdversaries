@@ -1,5 +1,11 @@
 # NaturalAdversaries
 
+## Training Data 
+
+[DynaHate](https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset)
+
+[AdversarialNLI](https://github.com/facebookresearch/anli)
+
 ## Sampling 
 
 Sampling with integrated gradients: `` python ./src/sampling/ig_sampling.py ``
