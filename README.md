@@ -1,16 +1,16 @@
 # NaturalAdversaries
 
-# Trained Models 
+## Trained Models 
 
 Trained adversarial generation models can be found here: https://huggingface.co/skg/na-models. 
 
-# Robustness Stress Tests
+## Robustness Stress Tests
 
 [SNLI-Hard](https://nlp.stanford.edu/projects/snli/snli_1.0_test_hard.jsonl)
 
 [HateCheck](https://github.com/paul-rottger/hatecheck-data)
 
-# Classifiers 
+## Classifiers 
 
 Links to tested classifiers can be found here:
 
