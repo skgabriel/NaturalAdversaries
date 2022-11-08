@@ -32,7 +32,7 @@ Trained adversarial generation models can be found here: https://huggingface.co/
 
 Example Usage:
 
-`
+```
 
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
@@ -52,7 +52,7 @@ output_text = tokenizer.decode(output_text[0].tolist())
 
 print(output_text.split("[SEP] ")[-1].replace("<|endoftext|>",""))
 
-`
+```
 
 ## Robustness Stress Tests
 
