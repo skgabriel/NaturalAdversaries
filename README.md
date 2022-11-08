@@ -12,6 +12,9 @@ Links to tested classifiers can be found here:
 
 Hate Speech:
 
+[HateXplain model](https://huggingface.co/Hate-speech-CNERG/bert-base-uncased-hatexplain?text=I+like+you.+I+love+you)
+
+[Roberta TwitterHate model](https://huggingface.co/Xuhui/ToxDect-roberta-large?text=I+like+you.+I+love+you)
 
 NLI:
 
