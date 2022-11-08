@@ -2,6 +2,8 @@
 
 ## Sampling 
 
+Sampling with integrated gradients: `` python ./src/sampling/ig_sampling.py ``
+
 ## Training 
 
 ## Generation
