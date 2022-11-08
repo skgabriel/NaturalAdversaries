@@ -8,7 +8,11 @@ Sampling with [Lime](https://arxiv.org/abs/1602.04938): `` python ./src/sampling
 
 ## Training 
 
+`` python ./src/modeling/finetune.py ``
+
 ## Generation
+
+`` python ./src/modeling/generate.py ``
 
 ## Trained Models 
 
