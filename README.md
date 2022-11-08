@@ -4,6 +4,8 @@
 
 Sampling with integrated gradients: `` python ./src/sampling/ig_sampling.py ``
 
+Sampling with [Lime](https://arxiv.org/abs/1602.04938): `` python ./src/sampling/lime_sampling.py ``
+
 ## Training 
 
 ## Generation
