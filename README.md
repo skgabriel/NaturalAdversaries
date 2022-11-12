@@ -14,6 +14,7 @@ Sampling with [Lime](https://arxiv.org/abs/1602.04938): `` python ./src/sampling
 
 ## Generated Examples
 
+[NLI examples](https://github.com/skgabriel/NaturalAdversaries/tree/main/data) (generated using either integrated gradients (ag-ig) or Lime (ag-lime))
 
 ## Training 
 
