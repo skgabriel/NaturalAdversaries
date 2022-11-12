@@ -73,3 +73,14 @@ NLI:
 [DeBERTa MNLI model](https://huggingface.co/microsoft/deberta-base-mnli?text=%5BCLS%5D+I+love+you.+%5BSEP%5D+I+like+you.+%5BSEP%5D)
 
 [QNLI model](https://huggingface.co/textattack/bert-base-uncased-QNLI?text=I+like+you.+I+love+you)
+
+## Paper 
+
+```
+@article{Gabriel2022NaturalAdversaries,
+  title={NaturalAdversaries: Can Naturalistic Adversaries Be as Effective as Artificial Adversaries?},
+  author={Saadia Gabriel and Hamid Palangi and Yejin Choi},
+  journal={Findings of EMNLP},
+  year={2022}
+}
+```
