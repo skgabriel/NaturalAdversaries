@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 from sklearn.utils import shuffle
 from utils import *
-from transformers import GPT2Tokenizer, GPT2LMHeadModel, AutoTokenizer, AutoModelForSequenceClassification
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import time
 from transformers import AdamW, get_linear_schedule_with_warmup
 import tqdm 
