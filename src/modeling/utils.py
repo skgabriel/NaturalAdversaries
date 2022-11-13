@@ -11,14 +11,6 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer, GPT2Config, GPT2LMHeadM
 from transformers import AdamW, get_linear_schedule_with_warmup
 import random
 
-def calculate_rouge(preds, gts):
-    assert len(preds) == len(gts)
-    incorrect = [i for i in range(len(gts)) if len(gts[i]) < 1]
-    preds = [preds[i] for i in range(len(gts)) if i not in incorrect]
-    gts = [gts[i] for i in range(len(gts)) if i not in incorrect]
-    result = rouge.get_scores(preds, gts, avg=True)
-    return result["rouge-1"]["f"], result["rouge-2"]["f"], result["rouge-l"]["f"]
-
 class GPTDataSet(Dataset):
     def __init__(
         self,
