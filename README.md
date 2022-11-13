@@ -16,6 +16,8 @@ Sampling with [Lime](https://arxiv.org/abs/1602.04938): `` python ./src/sampling
 
 [Hate speech and NLI examples](https://github.com/skgabriel/NaturalAdversaries/tree/main/data) (generated using either integrated gradients (ag-ig) or Lime (ag-lime))
 
+[Data Card](https://github.com/skgabriel/NaturalAdversaries/blob/main/data/README.md)
+
 ## Training 
 
 `` python ./src/modeling/finetune.py ``
