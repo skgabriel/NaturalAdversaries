@@ -325,6 +325,3 @@ class Explanation(object):
         out += u'</body></html>'
 
         return out
-(base) -bash-5.0$ cat exceptions.py
-class LimeError(Exception):
-    """Raise for errors"""
