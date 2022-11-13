@@ -1,3 +1,6 @@
+numpy
 torch
 transformers
 captum
+tqdm
+datasets
