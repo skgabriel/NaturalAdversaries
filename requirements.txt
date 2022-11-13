@@ -4,3 +4,5 @@ transformers
 captum
 tqdm
 datasets
+scipy
+scikit-learn
